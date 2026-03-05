@@ -29,5 +29,17 @@ house-price-prediction-analysis
 └── README.md
 ```
 
-The data folder contains the dataset used for the analysis.
-The notebook folder contains the Jupyter notebook where the entire workflow was implemented including data exploration, modeling, and evaluation.
+The **data** folder contains the dataset used for the analysis.
+The **notebook** folder contains the Jupyter notebook where the entire workflow was implemented including data exploration, modeling, and evaluation.
+
+# Sample Output and Visualizations
+
+The project includes several visualizations to understand the housing data and evaluate model performance.
+
+Distribution of house prices to observe price spread across the dataset.
+
+Actual versus predicted house price scatter plot to evaluate prediction accuracy.
+
+Feature importance visualization to identify which housing attributes influence price the most.
+
+Residual plot used to inspect model errors and verify regression assumptions.
