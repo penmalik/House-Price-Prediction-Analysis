@@ -43,3 +43,18 @@ Actual versus predicted house price scatter plot to evaluate prediction accuracy
 Feature importance visualization to identify which housing attributes influence price the most.
 
 Residual plot used to inspect model errors and verify regression assumptions.
+
+
+# Challenges Encountered and Lessons Learned
+
+During the development of this project, several issues were encountered while exploring the dataset, building the regression model, and preparing the features. These challenges helped deepen the understanding of data preprocessing and model evaluation.
+
+One issue occurred during the train and test split of the dataset. The initial code mistakenly used a training size of 0.2 while the intention was to train the model on 80 percent of the data. This resulted in the model learning from a very small portion of the dataset while being evaluated on a much larger portion. After reviewing the code, the split was corrected to use test_size = 0.2, which allowed the model to train on 80 percent of the data and improved the model’s stability.
+
+Another challenge occurred while converting categorical data into numerical format. The furnishingstatus column contained categories such as furnished, semi furnished, and unfurnished. One hot encoding was applied using pandas get_dummies to transform this column into numerical features suitable for regression. During this step, the generated columns contained boolean values True and False instead of numeric values. An attempt was initially made to map string values 'True' and 'False' to integers, which produced missing values because the actual data type was boolean. The issue was resolved by converting the boolean columns directly to integers using astype(int).
+
+A formatting issue was also observed when displaying prediction results. The predicted values appeared in scientific notation such as 7.505157e+06, which initially looked incorrect. After investigation, it was understood that this was simply a display format used by Python for large numbers and not an error in the model output.
+
+Another challenge involved sorting regression coefficients after rounding them. At one point the dataframe containing the coefficients was unintentionally converted into a pandas Series, which caused an error when attempting to sort using a column name. The issue was corrected by modifying only the coefficient column instead of replacing the entire dataframe.
+
+These challenges helped strengthen understanding of dataset preparation, feature encoding, and model evaluation. They also highlighted the importance of checking data types, verifying assumptions in code, and carefully reviewing preprocessing steps when building machine learning models.
