@@ -17,6 +17,7 @@ This project demonstrates a complete regression analysis workflow including data
 
 Technologies used in this project include Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit learn.
 
+```
 house-price-prediction-analysis
 │
 ├── data
@@ -26,6 +27,7 @@ house-price-prediction-analysis
 │   house_price_analysis.ipynb
 │
 └── README.md
+```
 
 The data folder contains the dataset used for the analysis.
 The notebook folder contains the Jupyter notebook where the entire workflow was implemented including data exploration, modeling, and evaluation.
