@@ -1,4 +1,5 @@
 # House-Price-Prediction-Analysis
+
 This project explores how different housing characteristics influence property prices using data analysis and multiple linear regression. The goal of the project is to understand which features contribute most to housing value and to build a model capable of estimating house prices based on those features.
 
 The dataset contains 545 housing records with variables such as area, number of bedrooms, number of bathrooms, number of stories, parking availability, air conditioning, preferred location, and other structural or facility related attributes. These variables were used to predict the final house price.
@@ -17,6 +18,12 @@ This project demonstrates a complete regression analysis workflow including data
 
 Technologies used in this project include Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit learn.
 
+# Environment Setup
+
+To run this project locally, install the required Python libraries using the following command
+pip install -r requirements.txt
+This will install all the libraries required to reproduce the analysis and model results.
+
 ```
 house-price-prediction-analysis
 │
@@ -28,7 +35,6 @@ house-price-prediction-analysis
 │
 └── README.md
 ```
-
 The **data** folder contains the dataset used for the analysis.
 The **notebook** folder contains the Jupyter notebook where the entire workflow was implemented including data exploration, modeling, and evaluation.
 
@@ -43,7 +49,6 @@ Actual versus predicted house price scatter plot to evaluate prediction accuracy
 Feature importance visualization to identify which housing attributes influence price the most.
 
 Residual plot used to inspect model errors and verify regression assumptions.
-
 
 # Challenges Encountered and Lessons Learned
 
