@@ -65,3 +65,8 @@ A formatting issue was also observed when displaying prediction results. The pre
 Another challenge involved sorting regression coefficients after rounding them. At one point the dataframe containing the coefficients was unintentionally converted into a pandas Series, which caused an error when attempting to sort using a column name. The issue was corrected by modifying only the coefficient column instead of replacing the entire dataframe.
 
 These challenges helped strengthen understanding of dataset preparation, feature encoding, and model evaluation. They also highlighted the importance of checking data types, verifying assumptions in code, and carefully reviewing preprocessing steps when building machine learning models.
+
+## Author
+
+## Nnamani Ugochukwu Anthony
+Data Scientist and Machine Learning Enginner
