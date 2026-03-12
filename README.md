@@ -70,4 +70,5 @@ These challenges helped strengthen understanding of dataset preparation, feature
 
 # Nnamani Ugochukwu Anthony
 https://www.linkedin.com/in/ugochukwu-nnamani-9b3a27255/
-Data Scientist and Machine Learning Enginner
+
+Data Scientist and Machine Learning Engineer
